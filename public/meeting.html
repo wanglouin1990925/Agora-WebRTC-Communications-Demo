@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <title>Agora Video Call - Meeting</title>
+    <title>OneTouch WebRTC Test</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="css/bundle.css?v=2.1.0">
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="bookmark" href="images/favicon.ico">
+    <link rel="shortcut icon" href="">
+    <link rel="bookmark" href="">
     <!-- vertex shader -->
     <script id="2d-vertex-shader" type="x-shader/x-vertex">attribute vec2 a_position; attribute vec2 a_texCoord; uniform vec2 u_resolution; varying vec2 v_texCoord; void main() { // convert the rectangle from pixels to 0.0 to 1.0 vec2 zeroToOne = a_position / u_resolution; // convert from 0->1 to 0->2 vec2
         zeroToTwo = zeroToOne * 2.0; // convert from 0->2 to -1->+1 (clipspace) vec2 clipSpace = zeroToTwo - 1.0; gl_Position = vec4(clipSpace * vec2(1, -1), 0, 1); // pass the texCoord to the fragment shader // The GPU will interpolate this value between
@@ -69,10 +69,6 @@
              -->
         <!-- Footer -->
         <footer id="footer">
-            <ul class="copyright">
-                <li><a>Agora.io</a></li>
-                <li>Copyright &copy; Agora.io 沪ICP备14053584号</li>
-            </ul>
         </footer>
     </div>
     <div id="roomInfoModal" class="modal fade" tabindex="-1" role="dialog">
