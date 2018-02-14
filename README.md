@@ -1,7 +1,7 @@
 ## Agora-WebRTC-Communications-Demo
 Sample communications demo app built using Agora WebRTC SDK v2.1.0
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AgoraIO/Agora-WebRTC-Communications-Demo)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/wanglouin1990925/Agora-WebRTC-Communications-Demo)
 
 Simply click the link above, and put in your AppID
 
